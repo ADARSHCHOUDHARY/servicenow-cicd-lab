@@ -1,5 +1,4 @@
-cicd.yml - your completed pipeline (lab2-start branch)
-compare against this
+
 # Cloud Dimensions - ServiceNow CI/CD lab pipeline
 # Branch: lab2-start  (Lab 2 / Lesson 4 - Promote an Application via the CICD API)
 # Completed state: the pre-written instance-resolution step plus the apply changes
