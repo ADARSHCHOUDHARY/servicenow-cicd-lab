@@ -10,12 +10,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-1  JOB-LEVEL ENV
+    env: 1  JOB-LEVEL ENV
       nowUsername: ${{ secrets.SN_USERNAME }}
       nowPassword: ${{ secrets.SN_PASSWORD }}
-    steps:
-2  STEPS
+    steps: 2  STEPS
       - name: Check out repository
         uses: actions/checkout@v4
       # Pre-written for you - you do not need to edit this step.
